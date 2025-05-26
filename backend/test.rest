@@ -1,0 +1,9 @@
+POST  http://localhost:5000/api/user/adduser
+content-type: application/json
+
+{
+    "user_name":"saad malik",
+ "user_email":"muhammadsaad@gmail.com",
+ "user_dob": "2003-10-23",
+ "user_gender":"male"
+}
